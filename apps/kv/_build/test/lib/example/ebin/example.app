@@ -1,0 +1,10 @@
+{application,example,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"example"},
+              {modules,['Elixir.Example','Elixir.KV','Elixir.KV.Bucket',
+                        'Elixir.KV.Registry','Elixir.KV.Supervisor',
+                        'Elixir.SimpleQueue']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {extra_applications,[logger]},
+              {mod,{'Elixir.KV',[]}}]}.
